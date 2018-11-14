@@ -1,7 +1,10 @@
 # Path of Ordenation
 
 ## Instruções
-Instalar a fonte contida nesse arquivo e após isso executar o main!
+* Instalar a fonte contida nesse arquivo
+* Configurar o interpretador para pygame:
+  ** File -> Setting -> Project:path-of-ordenation -> Project Interpreter -> Icone + -> pygame -> Apply -> Ok
+* Executar o main!
 
 Para a movimentação do personagem usar as setas do teclado:
 * Movimento para direita:   ->
