@@ -129,7 +129,7 @@ while not sair:
                                                 listaSprites.add(botao6)
                                                 tela.blit(ImagemGame2, (0, 0))
                                                 ganhou1 = True
-                                            elif chave1[0] != 1:
+                                            elif chave1[0] != 1 or chave1[1]!= 2 or chave1[2]!=3:
                                                 contador = 0
                                                 chave1.clear()
                                                 listaSprites.add(botao1)
@@ -177,7 +177,7 @@ while not sair:
                                                 listaSprites.add(botao9)
                                                 tela.blit(ImagemGame3, (0,0))
                                                 ganhou2 = True
-                                            elif chave2[0] != 1:
+                                            elif chave2[0] != 1 or chave2[1] != 2 or chave2[2] != 3:
                                                 chave2.clear()
                                                 contador = 3
                                                 listaSprites.add(botao4)
@@ -224,7 +224,7 @@ while not sair:
                                                 print("ganhou3")
                                                 ganhou3 = True
 
-                                            elif chave3[0] != 1:
+                                            elif chave3[0] != 1 or chave3[1] != 2 or chave3[2] != 3:
                                                 chave3.clear()
                                                 contador = 6
                                                 listaSprites.add(botao7)
