@@ -3,7 +3,7 @@
 ## Instruções
 * Instalar a fonte contida nesse arquivo
 * Configurar o interpretador para pygame:
-  ** File -> Setting -> Project:path-of-ordenation -> Project Interpreter -> Icone + -> pygame -> Apply -> Ok
+** File -> Setting -> Project:path-of-ordenation -> Project Interpreter -> Icone + -> pygame -> Apply -> Ok
 * Executar o main!
 
 Para a movimentação do personagem usar as setas do teclado:
