@@ -1,0 +1,7 @@
+1. O conceito de Herança está presente em ambas as classes, pois as mesmas herdam as características da classe Sprite, da biblioteca pygame. Classe Hero, linha 4 e Classe Botao, linha 3
+2. Não existe.
+3. Classe Hero, linha 10
+4. Classe Hero, linha 17
+5. Está presente definindo que o valor de cada botão não pode ser menor que 0 e nem maior que 3. Classe Botao, linha 16
+6. Arquivo main.py, linha 24
+7. Arquivo main.py, linha 85
