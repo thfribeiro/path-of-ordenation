@@ -38,9 +38,11 @@ bt9 = pygame.image.load('Imagens/Buttons/bt9.png').convert_alpha()
 botao1 = Botao(106, 320, bt3, 3)
 botao2 = Botao(412, 150, bt1, 1)
 botao3 = Botao(718, 320, bt2, 2)
+
 botao4 = Botao(106, 320, bt5, 2)
 botao5 = Botao(412, 150, bt4, 3)
 botao6 = Botao(718, 320, bt6, 1)
+
 botao7 = Botao(106, 320, bt9, 3)
 botao8 = Botao(412, 150, bt8, 1)
 botao9 = Botao(718, 320, bt7, 2)
@@ -129,7 +131,7 @@ while not sair:
                                                 listaSprites.add(botao6)
                                                 tela.blit(ImagemGame2, (0, 0))
                                                 ganhou1 = True
-                                            elif chave1[0] != 1 or chave1[1]!= 2 or chave1[2]!=3:
+                                            elif chave1[0] != 1 or chave1[1] != 2 or chave1[2] != 3:
                                                 contador = 0
                                                 chave1.clear()
                                                 listaSprites.add(botao1)
@@ -223,6 +225,7 @@ while not sair:
                                             if chave3[0] == 1 and chave3[1] == 2 and chave3[2] == 3:
                                                 print("ganhou3")
                                                 ganhou3 = True
+
 
                                             elif chave3[0] != 1 or chave3[1] != 2 or chave3[2] != 3:
                                                 chave3.clear()

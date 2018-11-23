@@ -12,3 +12,16 @@ class Botao(pygame.sprite.Sprite):
 
     def clicar(self):
             self.kill()
+
+    @property
+    def valor(self):
+        return self.__valor
+
+    @valor.setter
+    def valor(self, valor):
+        if(valor < 0):
+            self.__valor = 0
+        if(valor > 3):
+            self.__valor = 3
+        else:
+            self.__valor = valor
